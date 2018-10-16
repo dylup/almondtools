@@ -1,16 +1,4 @@
 #!/usr/bin/python
-#################################################################################
-#																				#
-#									runcmd.py 									#
-#								Written By: @dyl_up								#
-#																				#
-#################################################################################
-#	This script is written for Python 2.7.x. It works by sending an 			#
-#	authenticated HTTP request to the Securifi Almond router containing a 		#
-#	user specified Linux command. The command is then run on the router and 	#
-# 	any output is returned. This has been tested on firmware version 			#
-#	A1A-R020.																	#
-#################################################################################
 
 import argparse
 import httplib, urllib
